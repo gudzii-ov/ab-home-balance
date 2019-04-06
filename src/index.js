@@ -1,13 +1,12 @@
 export default (string) => {
   const stack = [];
-  const open = ['(', '[', '{', '<'];
-  const close = [')', ']', '}', '>'];
+  const open = ['(', '[', '{'];
+  const close = [')', ']', '}'];
 
   const bracketPairs = {
     ')': '(',
     ']': '[',
     '}': '{',
-    '>': '<',
   };
 
   for (let i = 0; i < string.length; i += 1) {
