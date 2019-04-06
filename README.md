@@ -1,2 +1,2 @@
-# alphabank-homework
-Homework for Alpha Bank
+# Alpha Bank Homework
+Bracket balance
